@@ -1,0 +1,522 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.h1 {
+    height: 80px;
+    width: 40%;
+    background-color: black;
+    float: left;
+    line-height: 80px;
+}
+.h2 {
+    height: 80px;
+    width: 60%;
+    color: antiquewhite;
+    float: right;
+    background-color: black;
+    line-height: 80px;
+
+}
+button {
+    color: white;
+    background-color: rgb(236, 89, 89);
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    margin-left: 75%;
+    font-weight: bold;
+}
+/* header css*/
+.header {
+    height: 70px;
+    width: 100%;
+}
+
+.main {
+    height: 70px;
+    width: 40%;
+    background-color: rgb(236, 89, 89);
+    float: left;
+}
+
+.main img {
+    height: 45px;
+    width: 100%;
+    padding-top: 2%;
+}
+
+.nav {
+    height: 70px;
+    width: 60%;
+    background-color: rgb(236, 89, 89);
+    float: right;
+}
+
+li {
+    list-style: none;
+    float: left;
+    line-height: 70px;
+    margin: 0px 30px 0px 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+/* banner css*/
+.banner {
+    height: 700px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('/website/asset/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.t1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 20%;
+    top: 50%;
+}
+
+.t1 h1 {
+    color: white;
+    font-size: 35px;
+}
+
+.t1 p {
+    color: white;
+    font-size: 20px;
+}
+
+.t1 b {
+    color: white;
+    border: 2px solid white;
+    padding: 0.6%;
+}
+/* details css*/
+.sup {
+    height: 100px;
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.s1 {
+    height: 100px;
+    width: 50%;
+    float: left;
+    text-align: justify;
+}
+
+.s2 {
+    height: 100px;
+    width: 50%;
+    float: right;
+    color: black;
+    text-align: justify;
+}
+
+/* 3 box-images css*/
+.box {
+    height: 300px;
+    width: 70%;
+    margin: auto;
+}
+
+.box1 {
+    height: 300px;
+    width: 30.33%;
+    float: left;
+}
+
+.box2 {
+    height: 300px;
+    width: 30.33%;
+    float: right;
+    margin: 0% 0% 0% 1.5%;
+}
+
+.box3 {
+    height: 300px;
+    width: 30.33%;
+    float: right;
+    margin: 0% 2.5% 0% 2.5%;
+}
+
+.box1 img {
+    height: 300px;
+    width: 100%;
+    filter: grayscale(100);
+}
+
+.box2 img {
+    height: 300px;
+    width: 100%;
+    filter: grayscale(100)
+}
+
+.box3 img {
+    height: 300px;
+    width: 100%;
+    filter: grayscale(100)
+}
+
+.box1 img:hover {
+    filter: grayscale(0);
+    transition: 0.8s;
+}
+
+.box2 img:hover {
+    filter: grayscale(0);
+    transition: 0.8s;
+}
+
+.box3 img:hover {
+    filter: grayscale(0);
+    transition: 0.8s;
+}
+
+/* details about images css*/
+.tab {
+    height: 150px;
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    font-size: large;
+}
+
+.tab1 {
+    height: 150px;
+    width: 30.33%;
+    float: left;
+}
+
+.tab2 {
+    height: 150px;
+    width: 30.33%;
+    float: right;
+    margin: 0% 0% 0% 1.5%;
+}
+
+.tab3 {
+    height: 150px;
+    width: 30.33%;
+    float: right;
+    margin: 0% 2.5% 0% 2.5%;
+}
+
+/* second banner css*/
+.banner2 {
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('/website/asset/sec-ban.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.safe {
+    height: 300px;
+    width: 40%;
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 60%;
+    top: 230%;
+    font-size: large;
+    text-align: right;
+}
+
+#h1 {
+    text-indent: 2%;
+}
+
+#p1 {
+    text-indent: 3%;
+}
+
+#p2 {
+    text-indent: 10%;
+}
+
+#p3 {
+    text-indent: 19%;
+}
+
+#but {
+    color: black;
+    background-color: white;
+    border-radius: 9%;
+    border: 1px solid white;
+}
+
+#but:hover {
+    background-color: rgb(236, 89, 89);
+}
+
+/* date css*/
+.date {
+    height: 100px;
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.pro {
+    font-size: 20px;
+}
+
+.d1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* 3 box-images css*/
+.images {
+    height: 400px;
+    width: 70%;
+    margin: auto;
+}
+
+.img1 {
+    height: 400px;
+    width: 30%;
+    background-color: brown;
+    float: left;
+}
+
+.img2 {
+    height: 400px;
+    width: 30%;
+    background-color: blue;
+    float: right;
+    margin: 0% 0% 0% 2.5%;
+}
+
+.img3 {
+    height: 400px;
+    width: 30%;
+    background-color: rgb(96, 253, 167);
+    float: right;
+    margin: 0% 2.5% 0% 0%;
+}
+
+.img1 img {
+    height: 400px;
+    width: 100%;
+}
+
+.img2 img {
+    height: 400px;
+    width: 100%;
+}
+
+.img3 img {
+    height: 400px;
+    width: 100%;
+}
+
+/* price css*/
+.price {
+    height: 50px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1%;
+    font-size: large;
+}
+
+.p1 {
+    height: 50px;
+    width: 30%;
+    float: left;
+}
+
+.p2 {
+    height: 50px;
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+}
+
+.p3 {
+    height: 50px;
+    width: 30%;
+    float: right;
+}
+
+font {
+    text-decoration: line-through;
+}
+
+/* butoons css*/
+.det {
+    height: 70%;
+    width: 70%;
+    margin: auto;
+    height: 70%;
+}
+.d1 {
+
+    width: 30%;
+    float: left;
+}
+.d2 {
+
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+}
+.d3 {
+    width: 30%;
+    float: right;
+}
+
+#details1 {
+    background-color: rgb(236, 89, 89);
+    border-radius: 4px;
+    height: 30px;
+    width: 70px;
+    margin-left: 37%;
+}
+
+#details1:hover {
+    background-color: black;
+}
+
+#details2 {
+    background-color: rgb(236, 89, 89);
+    border-radius: 4px;
+    height: 30px;
+    width: 70px;
+    margin-left: 37%;
+    margin-top: 4%;
+}
+
+#details2:hover {
+    background-color: black;
+}
+
+#details3 {
+    background-color: rgb(236, 89, 89);
+    border-radius: 4px;
+    height: 30px;
+    width: 70px;
+    margin-left: 37%;
+    margin-top: 4%;
+}
+
+#details3:hover {
+    background-color: black;
+}
+
+
+.view {
+    width: 100%;
+    height: 70px;
+    line-height: 50px;
+    line-height: 70px;
+}
+
+#vie {
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    margin-left: 45%;
+}
+
+#vie:hover {
+    background-color: rgb(236, 89, 89);
+    
+}
+
+/* table css*/
+.table {
+    height: 450px;
+    width: 60%;
+    background-color: black;
+    margin: auto;
+    margin-top: 10%;
+    color: white;
+    padding: 30px;
+}
+
+.lo {
+    font-size: large;
+    width: 50%;
+    float: right;
+    margin-top: 20px;
+    margin-right: 70px;
+}
+
+.photo {
+    background-color: pink;
+    height: 300px;
+    width: 30%;
+    background-image: url('/website/asset/Screenshot.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    transform: translate(-40%, -40%);
+    border-radius: 5px;
+    margin-top: 20%;
+}
+
+/* footer css*/
+.foot {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    margin-top: 10%;
+    line-height: 200px;
+}
+
+.logo {
+    height: 200px;
+    width: 70%;
+    float: left;
+}
+
+.logo img {
+    margin-left: 30%;
+}
+
+b {
+    color: white;
+    margin-left: 17%;
+}
+
+u {
+    color: red;
+}
+
+.icon {
+    height: 200px;
+    width: 30%;
+    float: right;
+}
+
+#i1 {
+    background-color: white;
+    border-radius: 3px;
+}
+
+#i2 {
+    background-color: white;
+    border-radius: 10px;
+}
+
+#i3 {
+    background-color: white;
+    border-radius: 3px;
+}
